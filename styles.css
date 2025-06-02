@@ -1,0 +1,13 @@
+/* Add to your existing CSS */
+@keyframes backgroundColors {
+  0% { background-color: #001f4d; }
+  33% { background-color: #4b0082; }
+  66% { background-color: #ff69b4; }
+  100% { background-color: #001f4d; }
+}
+
+body {
+  animation: backgroundColors 15s infinite alternate;
+}
+
+  
